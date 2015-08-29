@@ -1950,6 +1950,13 @@
 				font-size: 1em;
 			}
 
+/* Essay Card */
+.essay-card {
+    box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
+    background-color: #fffff0;
+    padding: 25px 40px 15px 40px;
+}
+
 /* Icons */
 
 	.icon {
