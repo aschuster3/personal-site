@@ -1,3 +1,6 @@
 from django.db import models
 
-# Create your models here.
+class EssayPost(models.Model):
+    title = models.CharField(max_length=100)
+    essay = models.CharField(max_length=5000)
+    time_stamp = models.DateTimeField(auto_now_add=True)
