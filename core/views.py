@@ -17,4 +17,4 @@ def index(request):
     return render(request, 'index.html', context)
 
 def essays(request):
-    return HttpResponse('Empty')
+    return render(request, 'essays.html')

@@ -2133,11 +2133,19 @@
 					margin-left: 0;
 				}
 
+				#footer .essay-page {
+				    margin-left: 0px;
+				}
+
 /* Main */
 
 	#main {
 		margin-left: 375px;
 	}
+
+	    #main .essay-page {
+	        margin-left: 0px;
+	    }
 
 		#main > section {
 			margin: 0;
