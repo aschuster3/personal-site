@@ -98,11 +98,11 @@
 							<p>I'll periodically put up essays and show the latest one here.</p>
 
                             <div class="essay-card">
-                                <h3>This is a test title</h3>
-                                <br>
+                                <h3>{{ post.title }}</h3>
                                 <p>
-                                    This is filler.
+                                    {{ post.essay|linebreaks }}
                                 </p>
+                                <small>{{ post.time_stamp }}</small>
                             </div>
 
 
