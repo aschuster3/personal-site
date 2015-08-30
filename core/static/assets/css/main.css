@@ -1951,11 +1951,21 @@
 			}
 
 /* Essay Card */
-.essay-card {
-    box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
-    background-color: #fffff0;
-    padding: 25px 40px 15px 40px;
-}
+
+    .essay-card {
+        box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
+        background-color: #fffff0;
+        padding: 25px 40px 15px 40px;
+    }
+
+/* Heading */
+
+    .heading-cover {
+        width: 70%;
+        background-color: rgba(0, 0, 0, .6);
+        border-radius: 25px;
+        margin: auto;
+    }
 
 /* Icons */
 

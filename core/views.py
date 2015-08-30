@@ -15,3 +15,6 @@ def index(request):
 
     context = {'post': post, 'form': form}
     return render(request, 'index.html', context)
+
+def essays(request):
+    return HttpResponse('Empty')
