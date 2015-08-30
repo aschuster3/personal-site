@@ -1,6 +1,6 @@
-from core.models import EssayPost
+from core.models import EssayPost, Message
 
 from django.contrib import admin
 
-# Register your models here.
 admin.site.register(EssayPost)
+admin.site.register(Message)
